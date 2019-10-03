@@ -13,7 +13,7 @@
   color: white;
 }
 
-.hero{
+.hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
 
-.frosty{
+.frosty {
   background: rgba(0,0,0,0.5);
   color: white;
 }
@@ -44,11 +44,11 @@ h1, h2, h3, h4, h5, h6, .navbar {
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
 }
 
-.btn{
+.btn {
   border-radius: 0;
 }
 
-.feature{
+.feature {
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -65,7 +65,7 @@ body{
   flex-direction: column;
 }
 
-#flex-content-container{
+#flex-content-container {
   flex: 1;
 }
 
@@ -96,5 +96,13 @@ body{
 }
 
 .booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+
+.help-block {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
   margin: 10px;
 }
