@@ -49,15 +49,40 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .feature{
-  width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
+html {
+  height: 100%;
+}
+
 
 body{
   background: image_url('body.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+#flex-content-container{
+  flex: 1;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background-color: rgba(36,32,33,0.9);
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+
+#footer a {
+  color: white;
+  font-weight: 100;
 }
 
 .booyah-box {
