@@ -1,24 +1,11 @@
-# README
+# Flixter
+Flixter is a site based off of the Udemy platform. This sit supports online learning through user-created video courses.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Usage
+Users can:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<li>Create an account.</li>
+<li>Browse a list of all courses</li>
+<li>Enroll in courses, which grants access to any course videos and may require a "payment" through Stripe. Because Stripe is in test mode, test credit card numbers will be accepted and no actual charges are made.</li>
+<li>Creating new courses as an instructor. This is located in the footer of the page under Add Course.</li>
+<li>Edit existing courses.</li>
