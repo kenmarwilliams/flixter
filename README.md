@@ -9,3 +9,7 @@ Users can:
 <li>Enroll in courses, which grants access to any course videos and may require a "payment" through Stripe. Because Stripe is in test mode, test credit card numbers will be accepted and no actual charges are made.</li>
 <li>Creating new courses as an instructor. This is located in the footer of the page under Add Course.</li>
 <li>Edit existing courses.</li>
+
+# Author
+
+Kellar Elliott
