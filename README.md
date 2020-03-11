@@ -1,4 +1,6 @@
 # Flixter
+https://flixter-kellar-elliott.herokuapp.com/
+
 Flixter is a site based off of the Udemy platform. This sit supports online learning through user-created video courses.
 
 # Usage
@@ -10,6 +12,4 @@ Users can:
 <li>Creating new courses as an instructor. This is located in the footer of the page under Add Course.</li>
 <li>Edit existing courses.</li>
 
-# Author
-
-Kellar Elliott
+![Image description](flixter.png)
